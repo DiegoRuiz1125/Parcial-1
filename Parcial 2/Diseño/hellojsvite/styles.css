@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* Fondo oscuro para un look gamer */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background-color: #ff4757; /* Rojo vibrante estilo gamer */
+    color: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid #ff9f1a; /* Efecto de resalte */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Sección de Noticias */
+.noticias {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Caja de cada noticia */
+.noticia {
+    background-color: #2f3542; /* Gris oscuro para destacar */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.noticia:hover {
+    transform: scale(1.05);
+}
+
+/* Imágenes de las noticias */
+.noticia img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #ff9f1a; /* Borde naranja vibrante */
+}
+
+/* Botones */
+button {
+    background-color: #ff9f1a; /* Naranja llamativo */
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #cc7700; /* Oscurece al pasar el mouse */
+}
+
+/* Sección de detalles de noticias */
+#detalles {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #ff9f1a; /* Naranja vibrante */
+}

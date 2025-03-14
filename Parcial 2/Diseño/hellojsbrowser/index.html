@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer News
+    </title>
+    <style>
+        body {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: #007afd;
+            color: rgb(255, 255, 255);
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        #mensaje {
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        button {
+            background-color: rgb(0, 20, 167);
+            color:rgb(255, 255, 255);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        button:hover {
+            background-color: #00f7ff;
+        }
+    </style>
+</head>
+<body>
+    <h1>" Bienvenido a Gamer News "</h1>
+    <p>Dale play!!!</p>
+    
+    <button onclick="mostrarMensaje()">Mostrar Mensaje</button>
+    <p id="mensaje"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
